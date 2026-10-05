@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:weight;
+        font-style:normal
+    }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar.light{
+    background-color: rgb(165, 192, 192);
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    padding: 5px;
+    gap: 85%;
+}
+.navbar.dark {
+    background-color: rgb(75, 73, 73);
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color:white;
+    padding: 5px;
+    gap: 85%;
+}
+.navbar button.light{
+    background-color: rgb(228, 60, 60);
+    padding: 9px;
+    border: 1px solid rgb(228, 60, 60);
+    color: whitesmoke;
+    height: 50px;
+    font-style: italic;
+    
+
+}
+.navbar button.dark {
+    background-color: rgb(228, 60, 60);
+    padding: 5px;
+    border: 1px solid rgb(228, 60, 60);
+    color: whitesmoke;
+    height: 50px;
+    font-style:italic ;
+
+
+}
+
+
+.notescontainer.light{
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    background-color:rgb(216, 228, 228);
+    
+}
+.notescontainer.dark {
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+
+}
+.formblock{
+    width: 40%;
+    height: 100vh;
+}
+.formcontent{
+    padding: 10px;
+}
+.formcontent label{
+    display: block;
+    font-size: 18px;
+}
+.formcontent input,textarea,select{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid rgb(203, 197, 197);
+    border-radius: 3px;
+}
+.formcontent .btn.light{
+    background-color: rgb(115, 43, 43);
+    color: aliceblue;
+    padding: 8px 10px;
+    font-size: 13px;
+    border: 1px solid rgb(115, 43, 43) ;
+    border-radius: 4px;
+
+}
+.formcontent .btn.dark {
+    background-color: aliceblue;
+    color: rgb(115,43,43);
+    padding: 8px 10px;
+    font-size: 13px;
+    border: 1px solid rgb(115, 43, 43);
+    border-radius: 4px;
+
+}
+ .formcontent button:hover{
+    background-color: aliceblue;
+    color: rgb(115, 43, 43);
+}
+/* Display Notes */
+
+.displaynotes {
+    width: 60%;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.displaynotes h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.displaynotes.light {
+    background-color: rgb(216, 228, 228);
+    color: black;
+}
+
+.displaynotes.dark {
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+.notes-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.note-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.note-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.note-card p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    white-space: pre-wrap;
+}
+
+.category {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(115, 43, 43);
+    color: white;
+    font-size: 14px;
+}
+
+.no-notes {
+    font-size: 18px;
+}
